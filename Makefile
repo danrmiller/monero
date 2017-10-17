@@ -116,7 +116,7 @@ fuzz:
 	mkdir -p build/fuzz
 	cd build/fuzz && cmake -D BUILD_TESTS=ON -D USE_LTO=OFF -D CMAKE_C_COMPILER=afl-gcc -D CMAKE_CXX_COMPILER=afl-g++ -D ARCH="x86-64" -D CMAKE_BUILD_TYPE=fuzz -D BUILD_TAG="linux-x64" ../.. && $(MAKE)
 
-reproducible:
+reproducible-linux-amd64:
 	mkdir -p build/release
 	cd contrib/reproducible && ./build-monero.sh
 
