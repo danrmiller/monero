@@ -5,7 +5,7 @@ set -ex
 #sudo service apt-cacher start
 
 git clone git://github.com/monero-project/monero.git
-git clone git://github.com/devrandom/gitian-builder.git
+#git clone git://github.com/devrandom/gitian-builder.git
 mkdir gitian-builder/inputs
 #wget 'http://miniupnp.tuxfamily.org/files/download.php?file=miniupnpc-1.5.tar.gz' -O gitian-builder/inputs/miniupnpc-1.5.tar.gz
 #wget 'http://downloads.sourceforge.net/project/wxwindows/2.9.1/wxWidgets-2.9.1.tar.bz2' -O gitian-builder/inputs/wxWidgets-2.9.1.tar.bz2
