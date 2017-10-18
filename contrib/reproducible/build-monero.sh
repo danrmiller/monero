@@ -1,7 +1,8 @@
+set -ex
 # First run:
-apt-get install apt-cacher python-vm-builder
-vi /etc/default/apt-cacher # ensure autostart is enabled
-sudo service apt-cacher start
+#apt-get install apt-cacher python-vm-builder
+#vi /etc/default/apt-cacher # ensure autostart is enabled
+#sudo service apt-cacher start
 
 git clone git://github.com/monero-project/monero.git
 git clone git://github.com/devrandom/gitian-builder.git
